@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="yidan.ambassador">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_meitu_1"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".EntryActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".AdminMainActivity"></activity>
+        <activity android:name=".AdminLoginActivity"></activity>
+        <activity android:name=".UserLoginActivity"></activity>
+        <activity android:name=".UserMainActivity"></activity>
+        <activity android:name=".NewEventActivity"></activity>
+        <activity android:name=".AmbassadorActivity"></activity>
+        <activity android:name=".RegisterActivity"></activity>
+        <activity android:name=".ReviewActivity"></activity>
+        <activity android:name=".EventDetailActivity"></activity>
+        <activity android:name=".EventAmbassadorActivity"></activity>
+        <activity android:name=".AmbasadorDetailActivity"></activity>
+        <activity android:name=".UserEventActivity"></activity>
+        <activity android:name=".UserEventDetailActivity"></activity>
+        <activity android:name=".UserProfileActivity"></activity>
+        <activity android:name=".UserRegisteredActivity"></activity>
+        <activity android:name=".EventEditActivity"></activity>
+        <activity android:name=".AdminEventAddnewActivity"></activity>
+        <activity android:name=".AdminSignupActivity"></activity>
+        <activity android:name=".UserSignupActivity"></activity>
+    </application>
+
+</manifest>

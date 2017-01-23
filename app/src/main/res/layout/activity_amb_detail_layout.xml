@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+                android:background="@drawable/event_image6" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="left">
+
+            <TextView
+                android:id="@+id/amb_name_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:textSize="15sp"
+                android:text="Ambassador Name:" />
+
+            <TextView
+                android:id="@+id/amb_name_content"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/amb_city_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Citizenship:"
+                android:textSize="15sp"
+                android:layout_marginLeft="30dp" />
+
+            <TextView
+                android:id="@+id/amb_city_content"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            >
+
+            <TextView
+                android:id="@+id/amb_gradYr_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Graduate Year:"
+                android:textSize="15sp"
+                android:layout_marginLeft="30dp" />
+
+            <TextView
+                android:id="@+id/amb_gradYr_content"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            >
+
+            <TextView
+                android:id="@+id/amb_major_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Major:"
+                android:textSize="15sp"
+                android:layout_marginLeft="30dp" />
+
+            <TextView
+                android:id="@+id/amb_major_content"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            >
+
+            <TextView
+                android:id="@+id/amb_phone_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone:"
+                android:textSize="15sp"
+                android:layout_marginLeft="30dp" />
+
+            <TextView
+                android:id="@+id/amb_phone_content"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            >
+
+            <TextView
+                android:id="@+id/amb_workHr_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Work Hour:"
+                android:textSize="15sp"
+                android:layout_marginLeft="30dp" />
+
+            <TextView
+                android:id="@+id/amb_workHr_content"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/amb_workExp_label"
+                android:layout_width="wrap_content"
+                android:textSize="15sp"
+                android:layout_height="33dp"
+
+                android:text="Over 2 years
+work experience:"
+                android:layout_marginLeft="30dp" />
+
+            <TextView
+                android:id="@+id/amb_workExp_content"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            >
+
+            <TextView
+                android:id="@+id/amb_email_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+
+                android:text="Email:"
+                android:layout_marginLeft="30dp" />
+
+            <TextView
+                android:id="@+id/amb_email_content"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textSize="15sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            >
+
+            <TextView
+                android:id="@+id/amb_skill1_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="15sp"
+                android:text="Skill 1:"
+                android:layout_marginLeft="30dp" />
+
+            <TextView
+                android:id="@+id/amb_skill1_content"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginLeft="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            >
+
+            <TextView
+                android:id="@+id/amb_skill2_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="15sp"
+                android:text="Skill 2:"
+                android:layout_marginLeft="30dp" />
+
+            <TextView
+                android:id="@+id/amb_skill2_content"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginLeft="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            >
+
+            <TextView
+                android:id="@+id/amb_skill3_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+
+                android:text="Skill 3:"
+                android:layout_marginLeft="30dp" />
+
+            <TextView
+                android:id="@+id/amb_skill3_content"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginLeft="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            >
+
+            <TextView
+                android:id="@+id/amb_skill4_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+
+                android:text="Skill 4:"
+                android:layout_marginLeft="30dp" />
+
+            <TextView
+                android:id="@+id/amb_skill4_content"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginLeft="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            >
+
+            <TextView
+                android:id="@+id/amb_skill5_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="15sp"
+                android:text="Skill 5:"
+                android:layout_marginLeft="30dp" />
+
+            <TextView
+                android:id="@+id/amb_skill5_content"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginLeft="10dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            >
+
+            <TextView
+                android:id="@+id/amb_avg_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:layout_marginLeft="30dp"
+                android:text="Average Score:" />
+
+            <TextView
+                android:id="@+id/amb_avg_content"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+
+                android:textSize="15sp"
+                android:inputType="numberDecimal"
+                android:textColor="@color/colorAccent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="30dp">
+
+            <Button
+                android:id="@+id/amb_delete_button"
+                android:layout_width="310dp"
+                android:layout_height="30dp"
+                android:text="DELETE"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:background="@drawable/button_shape_red" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

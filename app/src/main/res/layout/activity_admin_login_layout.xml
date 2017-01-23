@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/admin_login_username_editText"
+            android:layout_width="310dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/edittext_background"
+            android:ems="10"
+            android:hint="Admin ID"
+            android:inputType="number"
+            android:paddingLeft="15dp"
+            android:selectAllOnFocus="true"
+            android:textColorHint="@color/colorPrimaryDark" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/admin_login_password_editText"
+            android:layout_width="310dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/edittext_background"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingLeft="15dp"
+            android:selectAllOnFocus="true"
+            android:textColorHint="@color/colorPrimaryDark" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/admin_login_entry_button"
+            android:layout_width="310dp"
+            android:layout_height="50dp"
+            android:textSize="20sp"
+            android:background="@drawable/login_login_white_2"/>
+        <!--<ImageButton-->
+            <!--android:id="@+id/admin_login_entry_button"-->
+            <!--android:layout_width="290dp"-->
+            <!--android:layout_height="55dp"-->
+            <!--android:background="@drawable/login_login_white_2" />-->
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal">
+
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/login_or_1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center_horizontal">
+        <ImageButton
+            android:id="@+id/admin_login_signup_button"
+            android:layout_width="310dp"
+            android:layout_height="50dp"
+            android:text="SIGN UP"
+            android:textSize="20sp"
+            android:background="@drawable/login_sign_up_white_1"/>
+        <!--<ImageButton-->
+            <!--android:id="@+id/admin_login_signup_button"-->
+            <!--android:layout_width="290dp"-->
+            <!--android:layout_height="55dp"-->
+            <!--android:background="@drawable/login_sign_up_white_1" />-->
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/admin_nav_event"
+            android:icon="@drawable/ic_event"
+            android:title="Event List" />
+        <item
+            android:id="@+id/admin_nav_ambassador"
+            android:icon="@drawable/ic_ambassador"
+            android:title="Ambassador List" />
+        <!--<item-->
+            <!--android:id="@+id/admin_nav_register"-->
+            <!--android:icon="@drawable/ic_list"-->
+            <!--android:title="Registeration" />-->
+        <item
+            android:id="@+id/admin_nav_rate"
+            android:icon="@drawable/ic_rate_review"
+            android:title="Review"/>
+        <item
+            android:title=""
+            android:id="@+id/admin_nav_space"/>
+        <item
+            android:id="@+id/admin_nav_logout"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Log Out" />
+    </group>
+
+
+</menu>

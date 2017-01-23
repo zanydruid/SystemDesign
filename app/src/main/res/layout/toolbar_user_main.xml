@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="yidan.ambassador.MainActivity"
+    android:background="@drawable/mainpage_background_new_background">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/user_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="#AC2b37"
+            android:title="@string/welcome"
+            app:popupTheme="@style/AppTheme.PopupOverlay"/>
+        <!--android:background="@color/primary_red"/>-->
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_marginTop="410dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+       >
+        <ImageButton
+            android:id="@+id/user_event_button"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/mainpage_event_3"/>
+
+        <ImageButton
+            android:id="@+id/user_registered_button"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/mainpage_myevents_3"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp" />
+
+        <ImageButton
+            android:id="@+id/user_profile_button"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/mainpage_profile_3"/>
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

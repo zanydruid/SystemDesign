@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="group9.ambassador.MainActivity"
+    android:background="@drawable/login_select_user_background">
+
+    <LinearLayout
+        android:layout_marginTop="360dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <ImageButton
+            android:id="@+id/main_ambassador_entry_button"
+            android:layout_width="290dp"
+            android:layout_height="60dp"
+            android:background="@drawable/login_select_user_ambassador_new"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/main_administrator_entry_button"
+            android:layout_width="290dp"
+            android:layout_height="60dp"
+            android:background="@drawable/login_select_user_admin_new"/>
+    </LinearLayout>
+
+</LinearLayout>
